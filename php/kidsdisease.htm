@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset = "UTF-8">
+      <meta name="keywords" content="Child, health, analysis">
+      <meta name="description" content="data about kids' health">
+      <meta name="author" content="Jing Zhang & Fengxiang Lan">
+      <meta name="generator" content="Sublime Text">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+      <link rel="stylesheet" type="text/css" href="../css/kidsinfo.css">
+    </head>
+  <body>
+    <div class="main">
+      <!-- The search bar -->
+      <form method="post" action="kidsdisease.php">
+        <div class="search">
+        <!-- Search by Kid ID -->
+        <div class="ForKidID">
+          <span>Kid ID: </span>
+          <input type="text" name="KidID" class="KidID" id="KidID" placeholder="Kid ID">
+        </div>
+        <!-- Search by Class ID -->
+        <div class="ForClassID">
+          <span>Class ID: </span>
+          <input type="text" name="ClassID" class="ClassID" id="ClassID" placeholder="Class ID">     
+        </div>
+        <!-- Search Button -->
+        <div class="SearchButton">
+          <input type="submit" name="submit" class="submit" id="submit">
+        </div>
+      </div>
+        </form>
+      <!-- The search result -->
+    </div>
+  </body>
+</html>

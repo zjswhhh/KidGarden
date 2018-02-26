@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<meta charset = "UTF-8">
+    	<meta name="keywords" content="Child, health, analysis">
+    	<meta name="description" content="data about kids' health">
+    	<meta name="author" content="Jing Zhang & Fengxiang Lan">
+    	<meta name="generator" content="Sublime Text">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    	<link rel="stylesheet" type="text/css" href="../css/update_kid_meal.css">
+    </head>
+    <body>
+        <nav class="menu">
+          <ul>
+            <li><a class="Parents" href="update_parents.html">Update Parents</a></li>
+            <li><a class="Kid" href="update_kid.html">Update Kid</a></li>
+            <li><a class="Kid" href="update_kid_meal.html">Update Kid Meal</a></li>
+            <li><a class="Kid" href="update_kid_disease.html">Update Kid Disease</a></li>
+          </ul>
+        </nav>
+        <br></br>
+    	 <div class="find">
+          <form action="update_kid_meal.php" method="POST">
+          Kids ID: <input type="text" name="kidsID" required="required">
+          Meal Date: <input type="text" name="date" required="required">
+          Meal Type: <input type="text" name="type" required="required">
+          <input type="submit" name="search" class="search" id="search">
+          </form>
+          <div class="buttonForback">
+          <a href="update.html"><button>Back To Home Page</button></a>
+          </div> 
+      </div>         
+    </body>	
+</html>
