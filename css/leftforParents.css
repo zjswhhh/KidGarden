@@ -1,0 +1,112 @@
+/*------------------
+1. general
+-------------------*/
+html,body{
+	padding: 0;
+	margin:0px;
+	height: 100%;
+	}
+
+img{
+	width: 55px;
+	height:55px;
+	position: absolute;
+	margin-left: 3%;
+	margin-top: 12%
+
+}
+
+a{
+	font-size: 28px;
+	font-family: "Verdana";
+	display: block;
+	color: #ffffff;
+	text-decoration:none;
+    position: absolute;
+	margin-top: 15%;
+	margin-left: 25%;
+}
+
+a:hover{
+	font-size: 30px;
+}
+
+/*------------------------
+2. style of a 
+-------------------------*/
+.left-nav{
+	width: 100%;
+	height: 100%;
+}
+
+.userIcon{
+	display: block;
+	width: 100%;
+	height: 20%;
+	background-color: #FF0033/*#FF99CC*/;
+	opacity: 0.7;
+	position: relative;
+}
+.userinfo{
+	display: block; 
+	width: 100%;
+	/*min-height: 95px;*/
+	height: 20%;
+	background-color: #FF9900/*#CCFF66*/;
+	opacity: 0.6;
+	position: relative;
+}
+
+.kidsinfo{
+	display: block; 
+	width: 100%;
+	/*min-height: 95px;*/
+	height: 20%;
+	background-color: #FFFF00/*#66CCCC*/;
+	opacity: 0.6;
+	position: relative;
+}
+
+.kidsclass{
+	display: block; 
+	width: 100%;
+	/*min-height: 95px;*/
+	height: 20%;
+	background-color: #66CC00;
+	opacity: 0.6;
+	position: relative;
+}
+
+.kidsmeal{
+	display: block; 
+	width: 100%;
+	/*min-height: 95px;*/
+	height: 22%;
+	background: #6666CC;
+	opacity: 0.6;
+	position: relative;
+}
+
+.kidsdisease{
+	display: block; 
+	width: 100%;
+	/*min-height: 95px;*/
+	height: 20%;
+	background: #0099CC;
+	opacity: 0.6;
+	position: relative;
+}
+
+.delete{
+	display: block; 
+	width: 100%;
+	/*min-height: 95px;*/
+	height: 20%;
+	background-color:#99CCFF;
+	opacity: 0.6;
+	position: relative;
+}
+
+
+
+

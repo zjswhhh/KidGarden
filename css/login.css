@@ -1,0 +1,193 @@
+@charset 'utf-8';
+@import url("reset.css");
+
+.clear{clear:both}
+.hide{display:block;overflow:hidden;text-indent:-900px}
+
+/*-------------------------------------
+1. general 
+---------------------------------------*/
+html,body{
+	height: 100%;
+	/*position: relative;*/
+}
+
+a{
+	 color:#0A64A4;
+}
+/*body{
+	background:-moz-radial-gradient(center, ellipse cover, #090b44 0%, #00001c 100%); 
+	background:-webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#090b44), color-stop(100%,#00001c)); 
+	background:-webkit-radial-gradient(center, ellipse cover, #090b44 0%,#00001c 100%); 
+	background:-o-radial-gradient(center, ellipse cover, #090b44 0%,#00001c 100%); 
+	background:-ms-radial-gradient(center, ellipse cover, #090b44 0%,#00001c 100%); 
+	background:radial-gradient(ellipse at center, #090b44 0%,#00001c 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#090b44', endColorstr='#00001c',GradientType=1 );
+	padding:0;
+	text-align:center;
+	font-family:'open sans';
+	position:relative;
+	margin:0;
+	padding-bottom:50px;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+*/
+canvas{display:block;width:100%;height:100%;top:0;left:0;position:fixed;}
+canvas.flare{opacity:0.5;}
+
+footer{
+	width: 100%;
+    height:100px;   /* footer的高度一定要是固定值*/ 
+    position:absolute;
+    bottom: 0%;
+    top: 90%;
+    color:#0A64A4;
+}
+
+.main{
+	background:-moz-radial-gradient(center, ellipse cover, #CCFFFF 0%, #0099CC 100%); /* FF3.6+ */
+	background:-webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#CCFFFF), color-stop(100%,#0099CC)); /* Chrome,Safari4+ */
+	background:-webkit-radial-gradient(center, ellipse cover, #CCFFFF 0%,#0099CC 100%); /* Chrome10+,Safari5.1+ */
+	background:-o-radial-gradient(center, ellipse cover, #CCFFFF 0%,#0099CC 100%); /* Opera 12+ */
+	background:-ms-radial-gradient(center, ellipse cover, #CCFFFF 0%,#0099CC 100%); /* IE10+ */
+	background:radial-gradient(ellipse at center, #CCFFFF 0%,#0099CC 100%); /* W3C */
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#CCFFFF', endColorstr='#0099CC',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	padding:0;
+	text-align:center;
+	font-family:'open sans';
+	position:relative;
+	margin:0;
+	padding-bottom:50px;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	background-color: #CCFFFF;
+	min-width: 1000px;
+	overflow: hidden;
+	width: 100%;
+	min-height: 100%;
+	position: relative;
+}
+
+/*-------------------------------------
+2. first-level div
+---------------------------------------*/
+.header{
+	color: white;
+	font-family: "Impact";
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;
+	margin: 110px auto 0;
+	width: 1000px;
+	height: 60px
+}
+
+.content{
+	/*background:url(../image/loginBg.png) no-repeat top center;*/
+	background-color: white;
+	opacity: 0.6;
+	margin:69px auto 0;
+	width:423px;
+	height:366px;
+	border:1px solid #ededed;
+	text-align: center;
+	border-radius: 15px;
+}
+/*-------------------------------------
+3. title
+---------------------------------------*/
+
+.title{
+	margin:37px auto 20px;
+	width:229px;
+	height:50px
+}
+
+.titleText{
+	color: #66CCFF;
+	font-family: "Impact";
+	font-size: 50px;
+	text-align: center;
+	font-weight: bold;
+
+}
+
+/*-------------------------------------
+4. loginBox
+---------------------------------------*/
+.login{
+	margin: 40px auto;
+	width:300px;
+	text-align: center;
+	position: relative;
+}
+
+/*-------------------------------------
+5.  input-text
+---------------------------------------*/
+.inputUid{
+	width: 220px;
+	height: 40px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.inputPwd{
+	width: 220px;
+	height: 40px;
+	margin: 20px auto;
+	text-align: center
+}
+.inputText{
+	padding-left:30px;
+	width: 220px;
+	height: 40px;
+	margin: 0px auto;
+	border-radius: 10px;
+}
+
+input::-webkit-input-placeholder{
+	font-size:20px;
+}
+
+.inputText::-moz-placeholder{
+    font-size: 30px;
+    line-height: 20px;
+}
+
+#userid{
+	background:url("../image/inputName.png") no-repeat top left;
+}
+#password{
+	background:url("../image/input_password.png") no-repeat top left
+}
+
+/*-------------------------------------
+6.  input-button
+---------------------------------------*/
+.ForLogin{
+	display: block;
+	background-color: #66CCFF;
+	width: 258px;
+ 	height: 30px;
+ 	line-height: 10px;
+ 	margin: 0 auto;
+ 	color: white;
+ 	font-weight: bolder;
+ 	border: 2px solid #66CCFF;
+ 	box-sizing: border-box;
+ 	transition: all 1s;
+ 	position: absolute;
+ 	top:100%;
+ 	left:13%;
+ 	text-align: center;
+}
+
+
+
+
+
+	
