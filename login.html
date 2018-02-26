@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<title>Child Life Database System</title>
+	<meta charset = "UTF-8">
+	<meta name="keywords" content="Child, health, analysis">
+	<meta name="description" content="data about kids' health">
+	<meta name="author" content="JingZhang & Fengxiang Lan">
+	<meta name="generator" content="Sublime Text">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.let_it_snow.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/login.css" />
+	<script type="text/javascript">
+	$(document).ready(function(){
+
+	$("canvas.snow").let_it_snow({
+		windPower: 3,
+		speed: 1,
+		count: 250,
+		size: 0
+	});
+
+	$("canvas.flake").let_it_snow({
+		windPower: -3,
+		speed: 1,
+		count: 20,
+		size: 10,
+		image: "image/white-snowflake.png"
+	});
+
+	});
+	</script>
+	</head>
+
+	<body>
+		<div class="main">
+		<canvas width="100%" height="100%" class="snow"></canvas>
+		<canvas width="100%" height="100%" class="flake"></canvas>
+			<div class="header">
+				Welcome  to  ChildLife  Database  System
+			</div>
+			<div class="content">
+				<div class="title">
+					<ul class="titleText">LOG    IN</ul>
+				</div>
+				<div>
+				<form name="login" class="login" method="post" action="php/login.php">
+					<fieldset>
+						<div class="inputUid">
+							<input type="text" name="userid" class="inputText useid" id="userid" placeholder="User ID" required="required" maxLength="24" onfocus="if(placeholder=='User ID') {placeholder=''}" onblur="if (placeholder=='') {placeholder='User ID'}" />
+					    </div>
+					    <div class="inputPwd">
+					    	<input type="password" name="password" class="inputText password" id="password" placeholder="Password" required="required" maxlength="20" onfocus="if(placeholder=='Password') {placeholder=''}" onblur="if (placeholder=='') {placeholder='Password'}"/>
+					    </div>
+					    <div class="bottonForLogin">
+					    	<input type="submit" name="submit" class="ForLogin" value="LOG IN" id="ForLogin">
+					    </div>
+					</fieldset>
+				</form>
+				</div>
+			</div>
+			<!-- <div class="footer"> -->
+			<footer>
+					© Copyright FengxiangLan&JingZhang&JiashunLiu</br>
+					If you have any question, contact <a href="mailto:flan@ur.rochester.edu">flan@ur.rochester.edu</a>
+			</footer>
+			<!-- </div> -->
+		</div>
+	</body>
+</html>
